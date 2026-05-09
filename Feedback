@@ -1,0 +1,30 @@
+## Overall GitHub Structure
+Feedback 1: The repository uses an organized professional and project based structure with folders such as data, docs, models, notebooks, reports, references, and src. The only recommendation would be to add leading zeros to the file names so they are in sequential order (e.g. Week01_Report, Week02_Report, …, Week13_Report).
+
+Feedback 2: The README still mentions the older telecom/pricing project rather than the hotel booking cancellation project. This should be updated so the first page of the repo matches the current project topic, research question, dataset, and final model.
+
+Feedback 3: The requirements.txt file appears too minimal for this notebook. It could be beneficial to include the different packages (e.g. pandas, numpy, matplotlib, seaborn, scikit-learn, scipy, statsmodels, xgboost, jupyter, etc.) needed to run the notebook.
+
+## Code / Jupyter Notebook
+Feedback 1:  It looks like some of the older notebooks are missing (weeks 2 - 6). This could be due to the project idea change or they were simply combined over time, but something our team noticed.  
+
+Feedback 2: The notebook had some minor typos in markdown headings, such as “Feartures,” “Proprocessing,” “Catagorial,” and “classfication.” These do not break the code but fixing these can help make the final report more polished.
+
+Feedback 3:  Overall, the code is very detailed and the notebook is logically structured and easy to follow. It moves from data loading to missing value checks, EDA, preprocessing, baseline modeling, tree-based models, model comparison, feature importance, bias analysis, and model export.
+
+## Code output
+Feedback 1: The code output was in alignment with what our group produced when running in the Jupyter hub. This was good to see that it was consistent and ran without errors.
+
+Feedback 2: The code outputs are very clear and articulated well throughout each week’s notebooks. The graphs and charts used do a good job of displaying your results in an interpretable manner.
+
+Feedback 3: The week 13 notebook does a good job of outlining the entire course work, but we believe the professor and TA were looking for a more condensed version. For example, it has a lot of the exploratory analysis graphs and other models tested and we believe this should be limited to the selected model and necessary code to complete. 
+
+## Project report
+Feedback 1: We found that the report generally matches what the notebook does. It explains the hotel booking cancellation problem, the dataset, missing values, feature engineering, models, performance metrics, feature importance, bias analysis, and model saving.
+
+Feedback 2: Also, the project report gives strong business context for the metrics, especially why cancellation recall matters for revenue management and overbooking decisions. This is very useful to relate it back to the “why” of the project and can be useful if being presented to a senior management group.
+
+Feedback 3: The project report does a good job of comparing Random Forest, XGBoost, and Logistic Regression, but the notebook also includes HistGradientBoosting. It looks like that was missing being touched upon in the final report document.
+
+## Final Takeaways
+Your team’s project did a great job of detailing each process and the different models you tested out. The notebooks you created show a clear progression from data loading to EDA, preprocessing, modeling, evaluation, bias analysis, and model saving. Our group was able to rerun your final week 13 code without any errors or issues in the Jupyter hub server and we obtained the same results, which is the ultimate goal.  Overall, we felt that your team had a strong project idea and were able to deliver meaningful results in a way that a business proposal would find beneficial.
